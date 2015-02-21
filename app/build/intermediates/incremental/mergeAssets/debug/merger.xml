@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/sle/AndroidStudioProjects/TwelveTile/app/src/main/assets"><file name="help.html" path="/home/sle/AndroidStudioProjects/TwelveTile/app/src/main/assets/help.html"/></source></dataSet><dataSet config="debug"><source path="/home/sle/AndroidStudioProjects/TwelveTile/app/src/debug/assets"/></dataSet></merger>

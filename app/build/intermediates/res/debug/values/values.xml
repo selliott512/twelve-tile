@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/sle/AndroidStudioProjects/TwelveTile/app/src/main/res/values/arrays.xml -->
+    <eat-comment/>
+    <string-array name="puzzle_type_list">
+		<item>M12</item>
+		<item>Bubble</item>
+		<item>Custom</item>
+	</string-array>
+    <string-array name="puzzle_type_list_values">
+		<item>m12</item>
+		<item>bubble</item>
+		<item>custom</item>
+	</string-array>
+    <!-- From: file:/home/sle/AndroidStudioProjects/TwelveTile/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Twelve Tile Puzzle</string>
+    <string name="application_preferences">Application Preferences</string>
+    <string name="cancel">Cancel</string>
+    <string name="cheat_summary">Turn on cheat (correct move highlighted) mode</string>
+    <string name="cheat_title">Cheat</string>
+    <string name="cheating">Cheating is only supported for the M12 type puzzle.  Turning cheating off.</string>
+    <string name="congrats">Congratulations!  You solved it!</string>
+    <string name="five_summary">Only display the first five tiles (A - E)</string>
+    <string name="five_title">Five</string>
+    <string name="fixed_instead">' instead of '</string>
+    <string name="fixed_result">Fixed the result specified so that it is now '</string>
+    <string name="global_preferences">Global Preferences</string>
+    <string name="help_name">Twelve Tile Help</string>
+    <string name="landscape">This application works best in landscape mode.</string>
+    <string name="mono_summary">Monochrome / high contrast mode</string>
+    <string name="mono_title">Monochrome</string>
+    <string name="move1_name_default">Move 1</string>
+    <string name="move1_name_dialog_title">Enter the name of move 1 (the text that is to appear on the first move button)</string>
+    <string name="move1_name_summary">For the custom type specify the name of move 1</string>
+    <string name="move1_name_title">Custom Move 1 Name</string>
+    <string name="move1_result_dialog_title">Specify what move 1 (the first move button) does to the custom puzzle by indicating the sequence of 12 characters that results when applied to a solved puzzle.  A solved puzzle is represented by "ABCDEFGHIJKL", so entering that makes move 1 do nothing.</string>
+    <string name="move1_result_summary">For the custom type specify what move 1 (the first move button) does.</string>
+    <string name="move1_result_title">Custom Move 1 Result</string>
+    <string name="move2_name_default">Move 2</string>
+    <string name="move2_name_dialog_title">Enter the name of move 2 (the text that is to appear on the second move button)</string>
+    <string name="move2_name_summary">For the custom type specify the name of move 2</string>
+    <string name="move2_name_title">Custom Move 2 Name</string>
+    <string name="move2_result_dialog_title">Specify what move 2 (the second move button) does to the custom puzzle by indicating the sequence of 12 characters that results when applied to a solved puzzle.  A solved puzzle is represented by "ABCDEFGHIJKL", so entering that makes move 2 do nothing.</string>
+    <string name="move2_result_summary">For the custom type specify what move 2 (the second move button) does.</string>
+    <string name="move2_result_title">Custom Move 2 Result</string>
+    <string name="move_result_default">ABCDEFGHIJKL</string>
+    <string name="ok">Ok</string>
+    <string name="preferences_name">M12 Preferences</string>
+    <string name="puzzle_type_default">m12</string>
+    <string name="puzzle_type_dialog_title">Select the puzzle type</string>
+    <string name="puzzle_type_summary">Select the type of puzzle (M12, Bubble, Custom)</string>
+    <string name="puzzle_type_title">Puzzle Type</string>
+    <string name="reset_name">Factory reset</string>
+    <string name="reset_question">Are you sure you want to restore the Twelve Tile Puzzle to it's original factory state?</string>
+    <string name="reset_summary">Restore the Twelve Tile Puzzle to the way it was when it was installed</string>
+    <string name="reset_title">Factory reset</string>
+    <string name="restored">You restored the puzzle to it's solved state, but it was not randomized.  Try pressing "Random".</string>
+    <string name="type_specific_preferences">Type Specific Preferences</string>
+</resources>
