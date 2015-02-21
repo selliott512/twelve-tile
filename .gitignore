@@ -1,6 +1,16 @@
+# The original default .gitignore
 .gradle
 /local.properties
 /.idea/workspace.xml
 /.idea/libraries
 .DS_Store
 /build
+
+# Additional files that need to be ignored as a result of the emulator.
+/app/build/generated/source/r/
+/app/build/intermediates/classes/
+/app/build/intermediates/dex/
+/app/build/intermediates/res/resources-debug.ap_
+/app/build/intermediates/tmp/
+/app/build/outputs/apk/app-debug-unaligned.apk
+/app/build/outputs/apk/app-debug.apk

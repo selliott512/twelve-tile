@@ -10,8 +10,8 @@
 <string name="congrats">Congratulations!  You solved it!</string>
 <string name="five_summary">Only display the first five tiles (A - E)</string>
 <string name="five_title">Five</string>
-<string name="fixed_instead">' instead of '</string>
-<string name="fixed_result">Fixed the result specified so that it is now '</string>
+<string name="fixed_instead">\' instead of \'</string>
+<string name="fixed_result">Fixed the result specified so that it is now \'</string>
 <string name="global_preferences">Global Preferences</string>
 <string name="help_name">Twelve Tile Help</string>
 <string name="landscape">This application works best in landscape mode.</string>
@@ -39,10 +39,10 @@
 <string name="puzzle_type_summary">Select the type of puzzle (M12, Bubble, Custom)</string>
 <string name="puzzle_type_title">Puzzle Type</string>
 <string name="reset_name">Factory reset</string>
-<string name="reset_question">Are you sure you want to restore the Twelve Tile Puzzle to it's original factory state?</string>
+<string name="reset_question">Are you sure you want to restore the Twelve Tile Puzzle to it\'s original factory state?</string>
 <string name="reset_summary">Restore the Twelve Tile Puzzle to the way it was when it was installed</string>
 <string name="reset_title">Factory reset</string>
-<string name="restored">You restored the puzzle to it's solved state, but it was not randomized.  Try pressing "Random".</string>
+<string name="restored">You restored the puzzle to it\'s solved state, but it was not randomized.  Try pressing "Random".</string>
 <string name="type_specific_preferences">Type Specific Preferences</string>
 
 </resources>
