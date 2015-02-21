@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory android:title="@string/global_preferences">
+		<CheckBoxPreference android:key="cheat"
+			android:title="@string/cheat_title" android:summary="@string/cheat_summary" />
+		<CheckBoxPreference android:key="five"
+			android:title="@string/five_title" android:summary="@string/five_summary" />
+		<CheckBoxPreference android:key="mono"
+			android:title="@string/mono_title" android:summary="@string/mono_summary" />
+	</PreferenceCategory>
+
+	<PreferenceCategory android:title="@string/type_specific_preferences">
+
+		<ListPreference android:key="puzzle_type_key"
+			android:title="@string/puzzle_type_title" android:summary="@string/puzzle_type_summary"
+			android:entries="@array/puzzle_type_list" android:entryValues="@array/puzzle_type_list_values"
+			android:dialogTitle="@string/puzzle_type_dialog_title"
+			android:defaultValue="@string/puzzle_type_default" />
+		<EditTextPreference android:key="move1_name_key"
+			android:title="@string/move1_name_title" android:summary="@string/move1_name_summary"
+			android:dialogTitle="@string/move1_name_dialog_title"
+			android:defaultValue="@string/move1_name_default" />
+		<EditTextPreference android:key="move1_result_key"
+			android:title="@string/move1_result_title" android:summary="@string/move1_result_summary"
+			android:dialogTitle="@string/move1_result_dialog_title"
+			android:defaultValue="@string/move_result_default" />
+		<EditTextPreference android:key="move2_name_key"
+			android:title="@string/move2_name_title" android:summary="@string/move2_name_summary"
+			android:dialogTitle="@string/move2_name_dialog_title"
+			android:defaultValue="@string/move2_name_default" />
+		<EditTextPreference android:key="move2_result_key"
+			android:title="@string/move2_result_title" android:summary="@string/move2_result_summary"
+			android:dialogTitle="@string/move2_result_dialog_title"
+			android:defaultValue="@string/move_result_default" />
+	</PreferenceCategory>
+
+	<PreferenceCategory android:title="@string/application_preferences">
+		<PreferenceScreen android:title="@string/reset_title"
+			android:summary="@string/reset_summary">
+			<intent android:action="android.intent.action.NEW"
+				android:targetPackage="org.selliott.twelvetile" android:targetClass="org.selliott.twelvetile.Reset" />
+		</PreferenceScreen>
+	</PreferenceCategory>
+
+</PreferenceScreen>

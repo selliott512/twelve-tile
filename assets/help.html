@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<title>Twelve Tile Help</title>
+</head>
+<body>
+<h2>Overview</h2>
+<p>Twelve Tile Puzzle is heavily inspired by the "M12 puzzle" that
+can be found on the <a
+	href="http://www.sciam.com/article.cfm?id=puzzles-simple-groups-at-play">
+Scientific American website</a>. The goal is to place the 12 tiles at the
+top of the screen in order by pressing the first two of the three move
+buttons that appear on the left side of the screen in the correct
+sequence. What the two move buttons do is controlled by which of the
+three puzzle types ("M12", "Bubble" and "Custom") is selected.</p>
+<p>Prior to this puzzle the M12 puzzle type had been implemented as a
+Java applet, which can be found on <a
+	href="http://selliott.org/puzzles/m12">the author's website</a>.</p>
+<p>Some of the six buttons are self explanatory, so you should just
+try them. See the <a href="#buttons">buttons section</a> for a detailed
+explanation of the buttons.</p>
+<p>The Twelve Tile Puzzle is open source. See the <a href="#license">license
+section</a> for details.</p>
+<h2>Puzzle Types</h2>
+<ul>
+	<li><b>M12</b> is quite difficult for reasons that have do with
+	group theory. The M12 puzzle is the one puzzle type that this puzzle
+	knows how to solve since the limited number of permutations makes it
+	possible to include a comprehensive database. See the <a
+		href="http://www.sciam.com/article.cfm?id=puzzles-simple-groups-at-play">
+	Scientific American website</a> for a discussion behind the M12 puzzle
+	type. For the M12 puzzle type the "Flip" button reverses the order of
+	the tiles and the "Merge" button folds the tiles back onto themselves.
+	This is the default puzzle type.</li>
+	<li><b>Bubble</b> is named since after the fact that it implements
+	<a href="http://en.wikipedia.org/wiki/Bubble_sort">bubble sort</a>. The
+	only important difference between this puzzle type and the bubble sort
+	algorithm is that for this puzzle type the place where items are swapped is
+	fixed and the tiles move.</li>
+	<li><b>Custom</b> is used to control exactly what first two move
+	buttons do. For all puzzle types each of the two moves can be described
+	by what they do to a solved puzzle. For example, for the M12 puzzle
+	type the the "Flip" button takes a solved puzzle, which can be
+	represented by <code>ABCDEFGHIJKL</code>, and flips it so that the
+	order of the tiles is reversed, which is represented by <code>LKJIHFEDCBA</code>.
+	Similarly for the custom puzzle type the two moves buttons my be
+	configured by the "Custom Move 1 Result" and "Custom Move 2 Result"
+	preferences on the preferences page (the page that is navigated to by
+	selecting "Preferences" when the "Menu" button is pressed). Optionally
+	the label that appears on the first two move buttons can be controlled
+	by the "Custom Move 1 Name" and "Custom Move 2 Name" preferences on the
+	preferences page.</li>
+</ul>
+<h2>Strategy</h2>
+<p>The M12 puzzle type is quite difficult. Although a comprehensive
+solution is beyond the scope of this document consider the following:</p>
+<ul>
+	<li>Merge changes everything other than the first tile. So it's
+	possible to get the first two tiles by pressing "Merge" until <code>A</code>
+	is in the last location. Then press flip to get <code>A</code> into the
+	first location and finally continue to press "Merge" until <code>B</code>
+	is in the second location.</li>
+	<li>Using the "Cheat" preference that can be found in the
+	preferences page illustrates which move gets the puzzle closer to
+	solved.</li>
+	<li>For the M12 puzzle type knowing the location of any five tiles
+	is sufficient to deduce the location of all 12 tiles. In order to
+	assist with focusing on five of the tiles try turning on the "Five"
+	preference in the preferences page.</li>
+</ul>
+<p>The Bubble puzzle type is easier than the M12 puzzle type. It's
+solved by applying the <a
+	href="http://en.wikipedia.org/wiki/Bubble_sort">bubble sort</a>
+algorithm. Since the "Swap" button causes the first two tiles to
+exchange places press "Swap" if the first tile comes after the second
+one and press "Roll" otherwise. One caveat is that one of the tiles
+should not be moved. For example, never swap tile <code>A</code> with
+another tile.</p>
+<h2><a name="buttons" id="buttons">Buttons</a></h2>
+<ul>
+	<li>
+	<h3>Moves</h3>
+	<ul>
+		<li><b>Move 1</b> is the first of the three move buttons. It is
+		is labeled "Flip" by default, but it's label changes as a function of
+		the puzzle type.</li>
+		<li><b>Move 2</b> is the second of the three move buttons. It is
+		is labeled "Merge" by default, but it's label changes as a function of
+		the puzzle type.</li>
+		<li><b>Undo</b> undoes the previous move.</li>
+	</ul>
+	</li>
+	<li>
+	<h3>Actions</h3>
+	<ul>
+		<li><b>Random</b> picks a random permutation that is valid for
+		the current puzzle type. Internally this is done by doing 100 random
+		moves.</li>
+		<li><b>Reset</b> restores the puzzle to it's solved state.</li>
+		<li><b>Rewind</b> undoes all moves since the last time the puzzle
+		was randomized by clicking the "Random" button. Use this to work on a
+		particular random puzzle by quickly reverting to the same random
+		puzzle.</li>
+	</ul>
+	</li>
+</ul>
+<h2><a name="license" id="license">License</a></h2>
+<p>The Twelve Tile Puzzle is subject to the <a
+	href="http://www.gnu.org/licenses/gpl-2.0.html">GPL version 2 or
+later</a> The source code for the Twelve Type Puzzle can be found on the <a
+	href="http://selliott.org/puzzles/twelvetile">author's website</a>.</p>
+</body>
+</html>

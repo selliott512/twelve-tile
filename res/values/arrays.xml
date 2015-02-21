@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+	<string-array name="puzzle_type_list">
+		<item>M12</item>
+		<item>Bubble</item>
+		<item>Custom</item>
+	</string-array>
+
+	<string-array name="puzzle_type_list_values">
+		<item>m12</item>
+		<item>bubble</item>
+		<item>custom</item>
+	</string-array>
+
+</resources>
