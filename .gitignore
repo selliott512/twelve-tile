@@ -14,3 +14,7 @@
 /app/build/intermediates/tmp/
 /app/build/outputs/apk/app-debug-unaligned.apk
 /app/build/outputs/apk/app-debug.apk
+
+# Miscellaneous files not having to do with Android, such as backup files
+# created by text editors.
+*~
