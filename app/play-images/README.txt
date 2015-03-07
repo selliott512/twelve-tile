@@ -1,4 +1,4 @@
-These images were downloaded from the play store.  Starting at:
+Some of these images were downloaded from the play store.  Starting at:
   https://play.google.com/store/apps/details?id=org.selliott.twelvetile
 The image was selected and downloaded.  Here's the URL for the hi-res icon:
   https://lh3.ggpht.com/V1K6VkfVJYFCsoR6LrU2B574W6QYEX4DbqSa6ozJNZ_DaoTC_hK9eJlOkR2UUrqCH_s=w300-rw
