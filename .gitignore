@@ -16,6 +16,24 @@
 /app/build/outputs/apk/app-debug-unaligned.apk
 /app/build/outputs/apk/app-debug.apk
 
+# Files produced when a release build was done.
+/app/app-release.apk
+/app/build/generated/source/buildConfig/release/
+/app/build/intermediates/assets/release/
+/app/build/intermediates/incremental/aidl/release/
+/app/build/intermediates/incremental/mergeAssets/release/
+/app/build/intermediates/incremental/mergeResources/release/
+/app/build/intermediates/manifests/
+/app/build/intermediates/res/release/
+/app/build/intermediates/res/resources-release.ap_
+/app/build/outputs/apk/app-release-unaligned.apk
+/app/build/outputs/apk/app-release-unsigned.apk
+/app/build/outputs/apk/manifest-merger-release-report.txt
+/app/build/outputs/lint-results-release-fatal_files/
+/app/build/outputs/lint-results-release-fatal.html
+/app/build/outputs/lint-results-release-fatal.xml
+/app/manifest-merger-release-report.txt
+
 # Miscellaneous files not having to do with Android, such as backup files
 # created by text editors.
 *~
